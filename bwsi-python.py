@@ -15,3 +15,9 @@ print(f"3d array: \n{my_3d_array}\n")
 print(f"slice of 3d array: \n{my_3d_array[0][1][1]}\n")
 my_3d_array[1][1][0] = 5
 print(f"New 3d array: \n{my_3d_array}\n")
+#array arithmetic
+u = np.array([1, 2, 3])
+v = np.array([4, 5, 6])
+print(u * 3)
+print(u + 2)
+print(u / 2)
